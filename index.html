@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4bc4e8430.js" crossorigin="anonymous"></script>
+    <script src="data.js" type="module"></script>
+    <script src="index.js" type="module" ></script>
+    <title>Portrait de Famille</title>
+</head>
+<body>
+<!-- <img class="image-fond" src="image/fond.jpg" alt=""> -->
+<video class="image-fond" src="image/fond.mp4" autoplay loop></video>
+<nav>
+  <h1>Portrait de Famille</h1>
+</nav>
+
+  
+<input type="password" name="text" class="input" placeholder="Enter your password!">
+
+<div class="form">
+  <section>
+    <p class="select-text">Sélection par année</p>
+    <select id="mySelectYear" class="mySelectYear">
+      <option>1954</option>
+      <option>1960</option>
+      <option>1961</option>
+      <option>1965</option>
+      <option>1966</option>
+      <option>1967</option>
+      <option>1968</option>
+      <option>1969</option>
+      <option>1970</option>
+      <option>1971</option>
+      <option>1972</option>
+      <option>1973</option>
+      <option>1974</option>
+    </select>
+    <p class="select-text select2">Sélection par personne</p>
+    <select id="mySelectName" class="mySelectName">
+      <option>Daniel COQUELET</option>
+      <option>Elisabeth COQUELET</option>
+      <option>Huguette COQUELET</option>
+      <option>Pierre NAVASSE</option>
+      <option>Mireille NAVASSE</option>
+    </select>
+  </section>
+
+
+
+
+    <div id="template"></div> <!-- template dinamico -->
+
+  
+
+</div>
+<div class="notif">
+  <div class="cross">
+      <i class="fa-solid fa-xmark"></i>
+  </div>
+  <h3>Tu veux envoyer un commentaire ?</h3>
+  <h4>Remplit ce formulaire </h4><i class="fa-solid fa-arrow-down fa-bounce fa-2xl" style="position: absolute; left: 160px; top: 100px;"></i>
+  <input class="formulaire" type="button" value="Formulaire">
+  
+</div>
+
+
+
+</body>
+
+</html>

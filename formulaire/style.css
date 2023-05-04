@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+overflow: hidden;
+}
+
+.form-register {
+    width: 400px;
+    background: #000000;
+    border: 5px solid white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.form-register .bouton {
+    width: 100%;
+    background: #ffffff;
+    border: none;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h4 {
+    text-align: center;
+}
+
+
+.notif {
+    position: relative;
+    bottom: 530px;
+    padding: 30px;
+    margin: auto;
+    width: 400px;
+    background: #0000009f;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.719);
+    font-family: 'calibri';
+    visibility: hidden;
+    transition: all .5s;
+}
+.notif h2 {
+    color: red;
+    text-align: center;
+}
+.notif p {
+    text-align: center;
+}
+
+.month, .file, .comment-image {
+    display: none;
+}
+.show-suggest {
+    display: flex;
+}
